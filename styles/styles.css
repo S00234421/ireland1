@@ -1,5 +1,5 @@
 nav{
-    background-color: lightgreen;
+    background-color: rgb(47, 199, 75);
     padding: 5px;
     border: 1px solid darkgreen;
     border: 5px;
@@ -7,13 +7,13 @@ nav{
 
 nav ul li{
     list-style-type: none;
-    background-color: rgb(235, 129, 53);
+    background-color: rgb(27, 212, 233);
     display: inline;
     padding: 15px;
 }
 
 nav ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ nav ul {
 }
 
 #active{
-    background-color: rgb(233, 27, 58);
+    background-color: rgb(27, 154, 233);
 }
 
 .logo{
@@ -123,7 +123,7 @@ aside ul li a {
 
 body{
     font-family: Verdana;
-    background-color: beige;
+    background-color: rgb(106, 210, 106);
     color: black;
 }
 
