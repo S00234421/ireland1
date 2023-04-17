@@ -1,13 +1,13 @@
 nav{
-    background-color: grey;
+    background-color: lightgreen;
     padding: 5px;
-    border: 1px solid green;
+    border: 1px solid darkgreen;
     border: 5px;
 }    
 
 nav ul li{
     list-style-type: none;
-    background-color: gray;
+    background-color: rgb(235, 129, 53);
     display: inline;
     padding: 15px;
 }
@@ -18,7 +18,7 @@ nav ul li a{
 }
 
 nav ul li:hover{
-    background-color:plum;
+    background-color:rgb(210, 64, 210);
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 #active{
-    background-color: darkolivegreen;
+    background-color: rgb(233, 27, 58);
 }
 
 .logo{
@@ -95,13 +95,13 @@ footer ul li a {
 
 footer {
     clear: both;
-    border: 1px solid orange;
+    border: 1px solid black;
     padding: 0;
     margin: 0;
     position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(40, 145, 225);
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ footer {
 #Maincontent {
     float: left;
     width: 100%;
-    border: 1px solid lightgreen;
+    border: 1px solid white;
 }
 
 aside ul li {
@@ -123,13 +123,14 @@ aside ul li a {
 
 body{
     font-family: Verdana;
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
 p {
     text-align: justify;
     padding: 2px;
+    color: black;
 }
 
 .course {
@@ -140,7 +141,7 @@ p {
 
 .videoContent {
     float: left;
-    width: 50%;
+    width: 48%;
     border: 2px solid white;
     max-height: 400px;
     min-height: 400px;
@@ -149,7 +150,7 @@ p {
 
 .videoContent1 {
     float:right;
-    width: 60%;
+    width: 48%;
     border: 2px solid white;
     max-height: 400px;
     min-height: 400px;
@@ -177,7 +178,61 @@ p {
     color: black;
 }
 
+.backgroundImageF {
+    background-image: url(../images/irish_football_team.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+
 main a {
     color: hotpink;
     text-decoration: none;
 }
+
+h1{
+    color: black;
+}
+
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+
+th,td,tr{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .collage img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin: 5px;
+  }
